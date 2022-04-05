@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        div{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heroes de dota</h1>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Agregar nuevo Heroe
+  </button>
+  <br />
+  <br />
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- tablaa -->
+  <div class="tabl border border-danger" id="table">
+    <div class="row">
+        <div class="col-2 border border border-danger">Nombre</div>
+        <div class="col-2 border border border-danger">Foto</div>
+        <div class="col-2 border border border-danger">Descripcion</div>
+        <div class="col-2 border border border-danger">Atrinuta principal</div>
+        <div class="col-2 border border border-danger">Tipos</div>
+        <div class="col-2 border border border-danger">Complejidad</div>
+    </div>
+  </div>
+  <script src="js/bootstrap.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
